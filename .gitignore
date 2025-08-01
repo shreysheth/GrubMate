@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache and logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Coverage reports
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI static and temp files
+staticfiles/
+media/
+*.pid
+
+# Docker
+*.tar
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Pydantic settings cache
+.pydantic/
+
+# Node (if using for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage and test reports
+htmlcov/
+.tox/
+.jest/
+jest-test-results.json
+
+# Optional: Ignore local database or compiled schemas
+*.db
+*.sqlite
+schemas_compiled/
+
+# Custom
+vector_store
