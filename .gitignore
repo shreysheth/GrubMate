@@ -98,4 +98,4 @@ jest-test-results.json
 schemas_compiled/
 
 # Custom
-vector_store
+data

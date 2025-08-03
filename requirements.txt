@@ -1,9 +1,29 @@
+# Python packages
+python_dotenv
+pip-tools
+tiktoken
+
+# Langchain
+langchain
+langchain_community
+langchain_chroma
+langchain_experimental
+langchain_docling
+langchain_huggingface
+
+# FastAPI
 fastapi
 uvicorn
+gunicorn
 pydantic
-langchain
-langchain-community
-langchain-docling
+sqlmodel
+python_multipart
+pypdf
+
+# Database
 pymongo
-chromadb
+
+# Hugging Face
+transformers
+sentence_transformers
 huggingface-hub
